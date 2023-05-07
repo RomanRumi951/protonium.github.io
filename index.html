@@ -31,6 +31,15 @@
       vertical-align: -.125em;
       fill: currentColor;
     }
+
+    #checkout {
+        color: black;
+    }
+
+    #checkout:hover{
+      background: darkturquoise;
+      color: white;
+    }
   </style>
 
 
@@ -38,11 +47,12 @@
   <link href="cover.css" rel="stylesheet">
 </head>
 
-<body class="d-flex h-100 text-center" background="banner_bg.jpg">
+<body class="d-flex h-100 text-center" background="banner_bg.jpg" style="background-repeat: no-repeat;background-position: center;">
 
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
-      <div>
+      <!-- <div class="fixed-top w-100 h-100 p-3 mx-auto flex-column" style="max-width: 60em;"> -->
+        <div>
         <br>
         <a href="index.html">
           <h3 class="float-md-start mb-0" style="color: white;"><img src="Roman_Rumi_2.jpg" alt="" width="80"
@@ -57,7 +67,7 @@
         </nav>
 
       </div>
-
+      <!-- <br><br><br><br><br> -->
     </header>
     <!-- <img src="Roman_Rumi.jpg" alt="" width="300" height="300" hspace="170" style="border-radius:150px;"> -->
     <main class="px-3">
@@ -71,7 +81,7 @@
       <p class="lead" style="color:white;">🌎 By The Way, I Live In <b>Gujarat, India 😄</b>.</b></p>
       <p class="lead" style="color:white;">🔥 Languages Known : <b>Gujarati, Hindi & English</b>.</b></p><br>
       <p class="lead">
-        <a href="skills.html" class="btn btn-lg btn-light fw-bold border-white bg-white">Checkout My Skills</a>
+        <a href="skills.html" class="btn btn-lg btn-light fw-bold" id="checkout">Checkout My Skills</a>
       </p>
     </main>
 
